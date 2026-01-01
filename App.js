@@ -10,7 +10,7 @@ import * as Device from 'expo-device';
 import Constants from 'expo-constants';
 import veriDosyasi from './veriler.json'; // İlk kurulum yedeği
 
-// --- FİNAL GITHUB RAW LINKINI BURAYA KOYUYORSUN ---
+// --- FİNAL GITHUB RAW LINKI ---
 const ONLINE_JSON_URL = "https://raw.githubusercontent.com/kakmese/mazot-bot/refs/heads/main/veriler.json"; 
 
 // --- RENK PALETİ ---
@@ -23,7 +23,7 @@ Notifications.setNotificationHandler({
   handleNotification: async () => ({ shouldShowAlert: true, shouldPlaySound: true, shouldSetBadge: false }),
 });
 
-// --- LOGO TANIMLAMALARI (DÜZELTİLDİ: Hepsi .png yapıldı ve bozuk dosya silindi) ---
+// --- LOGO TANIMLAMALARI ---
 const LOGO_DOSYALARI = {
   'shell': require('./assets/logos/shell.png'), 'opet': require('./assets/logos/opet.png'), 'petrol ofisi': require('./assets/logos/po.png'),
   'po': require('./assets/logos/po.png'), 'bp': require('./assets/logos/bp.png'), 'total': require('./assets/logos/total.png'),
@@ -75,7 +75,6 @@ export default function App() {
   const [tempIlce, setTempIlce] = useState(null);
   const [konumBulunuyor, setKonumBulunuyor] = useState(false);
   const [konumBasarili, setKonumBasarili] = useState(false);
-  const [bildirimGonderiliyor, setBildirimGonderiliyor] = useState(false);
   const [piyasaVerileri, setPiyasaVerileri] = useState({ dolar: '-', euro: '-', brent: '82.40' });
   const [duyurular, setDuyurular] = useState([]); 
   const [mesafe, setMesafe] = useState('');
@@ -132,7 +131,6 @@ export default function App() {
                     })
                     .catch((err) => {
                         console.log("⚠️ İnternet yok veya GitHub'a ulaşılamadı. Hafızadaki veri kullanılıyor.");
-                        // Hata olsa bile sorun yok, çünkü yukarıda hafızadan yüklemiştik :)
                     });
             }
 
@@ -180,16 +178,6 @@ export default function App() {
         const t = (await Notifications.getExpoPushTokenAsync({ projectId: pid })).data;
         console.log("Token:", t);
     } catch(e) {}
-  }
-
-  async function schedulePushNotification() {
-    setBildirimGonderiliyor(true);
-    try {
-        await Notifications.scheduleNotificationAsync({
-          content: { title: "🔔 Bildirim Testi", body: "Sistem sorunsuz çalışıyor!", sound: true }, trigger: null,
-        });
-        setTimeout(() => setBildirimGonderiliyor(false), 2000);
-    } catch (e) { setBildirimGonderiliyor(false); }
   }
 
   const konumumuBul = async () => {
@@ -388,10 +376,6 @@ export default function App() {
                         <TouchableOpacity style={[styles.selectorBox, { backgroundColor: colors.inputBg, borderColor: colors.border }]} onPress={() => setModalGorunumu('sehir')}><Text style={{color: colors.text}}>{tempSehir ? baslikDuzenle(tempSehir) : "Şehir Seç"}</Text><Feather name="chevron-down" size={16} color={colors.text} /></TouchableOpacity>
                         <TouchableOpacity style={[styles.selectorBox, { backgroundColor: colors.inputBg, borderColor: colors.border }, !tempSehir && {opacity:0.5}]} onPress={() => tempSehir && setModalGorunumu('ilce')} disabled={!tempSehir}><Text style={{color: colors.text}}>{tempIlce ? baslikDuzenle(tempIlce) : "İlçe Seç"}</Text><Feather name="chevron-down" size={16} color={colors.text} /></TouchableOpacity>
                         
-                        <TouchableOpacity style={[styles.notifyBtn, bildirimGonderiliyor && {opacity:0.7}]} onPress={schedulePushNotification} disabled={bildirimGonderiliyor}>
-                            {bildirimGonderiliyor ? <ActivityIndicator color="#fff"/> : <View style={{flexDirection:'row', alignItems:'center', justifyContent:'center'}}><MaterialCommunityIcons name="bell-ring" size={18} color="#fff" style={{marginRight:8}}/><Text style={{color:'#fff', fontWeight:'600'}}>Bildirim Test Et</Text></View>}
-                        </TouchableOpacity>
-
                         <View style={{marginTop:20}}>
                             <TouchableOpacity style={[styles.saveButton, { backgroundColor: colors.primary }]} onPress={kurulumuTamamla}><Text style={styles.saveButtonText}>Kaydet ve Başla</Text></TouchableOpacity>
                             {kayitliKonum && <TouchableOpacity style={[styles.cancelButton, { backgroundColor: colors.inputBg }]} onPress={() => setIlkAcilisModali(false)}><Text style={{color: colors.subText}}>Vazgeç</Text></TouchableOpacity>}
@@ -486,7 +470,6 @@ const styles = StyleSheet.create({
   cancelButton: { marginTop: 12, paddingVertical: 10, alignItems: 'center', borderRadius:12 },
   cancelButtonText: { fontWeight:'600' },
   gpsButton: { flexDirection:'row', alignItems:'center', justifyContent:'center', paddingVertical:14, borderRadius:12, marginBottom:15, shadowOpacity:0.2, shadowRadius:4, elevation:2 },
-  notifyBtn: { padding:14, borderRadius:12, alignItems:'center', marginBottom:10, backgroundColor:'#6366F1' },
   selectorHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 15, paddingBottom: 10, borderBottomWidth: 1 },
   selectorTitle: { fontSize: 18, fontWeight: 'bold' },
   modalItem: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingVertical: 15, borderBottomWidth: 1 },
