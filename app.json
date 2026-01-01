@@ -16,7 +16,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kadir.otoyakit"
+      "bundleIdentifier": "com.kadir.otoyakit",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Size en yakın istasyonları ve ilçe bazlı fiyatları gösterebilmek için konumunuza ihtiyacımız var."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -36,7 +39,7 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "En yakın istasyonları bulmak için konumunuza ihtiyacımız var."
+          "locationAlwaysAndWhenInUsePermission": "Size en yakın istasyonları ve ilçe bazlı fiyatları gösterebilmek için konumunuza ihtiyacımız var."
         }
       ],
       [

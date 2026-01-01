@@ -8,22 +8,19 @@ import * as Location from 'expo-location';
 import * as Notifications from 'expo-notifications'; 
 import * as Device from 'expo-device';
 import Constants from 'expo-constants';
-import veriDosyasi from './veriler.json'; // İlk kurulum yedeği
+import veriDosyasi from './veriler.json'; 
 
-// --- FİNAL GITHUB RAW LINKI ---
 const ONLINE_JSON_URL = "https://raw.githubusercontent.com/kakmese/mazot-bot/refs/heads/main/veriler.json"; 
 
-// --- RENK PALETİ ---
 const THEME = {
-  light: { bg: '#F5F7FA', card: '#FFFFFF', text: '#1E293B', subText: '#64748B', inputBg: '#F8FAFC', border: '#E2E8F0', primary: '#2563EB', icon: '#334155', success: '#10B981' },
-  dark: { bg: '#0F172A', card: '#1E293B', text: '#F1F5F9', subText: '#94A3B8', inputBg: '#334155', border: '#475569', primary: '#3B82F6', icon: '#CBD5E1', success: '#059669' }
+  light: { bg: '#F8FAFC', card: '#FFFFFF', text: '#334155', subText: '#94A3B8', inputBg: '#F1F5F9', border: '#E2E8F0', primary: '#3B82F6', icon: '#64748B', success: '#10B981' },
+  dark: { bg: '#0F172A', card: '#1E293B', text: '#F8FAFC', subText: '#94A3B8', inputBg: '#334155', border: '#475569', primary: '#60A5FA', icon: '#CBD5E1', success: '#34D399' }
 };
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({ shouldShowAlert: true, shouldPlaySound: true, shouldSetBadge: false }),
 });
 
-// --- LOGO TANIMLAMALARI ---
 const LOGO_DOSYALARI = {
   'shell': require('./assets/logos/shell.png'), 'opet': require('./assets/logos/opet.png'), 'petrol ofisi': require('./assets/logos/po.png'),
   'po': require('./assets/logos/po.png'), 'bp': require('./assets/logos/bp.png'), 'total': require('./assets/logos/total.png'),
@@ -64,9 +61,8 @@ export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const colors = isDarkMode ? THEME.dark : THEME.light;
 
-  // Başlangıçta boş veri ile başlıyoruz, useEffect içinde dolduracağız
   const [sehirVerileri, setSehirVerileri] = useState(veriDosyasi.sehirler ? veriDosyasi.sehirler : veriDosyasi);
-  const [veriKaynagi, setVeriKaynagi] = useState('Yükleniyor...'); // Kullanıcıya bilgi vermek için
+  const [veriKaynagi, setVeriKaynagi] = useState('Yükleniyor...'); 
 
   const [ilkAcilisModali, setIlkAcilisModali] = useState(false); 
   const [modalGorunumu, setModalGorunumu] = useState('form'); 
@@ -86,10 +82,8 @@ export default function App() {
   const responseListener = useRef();
 
   useEffect(() => {
-    // --- AKILLI HAFIZA SİSTEMİ ---
     const verileriYukle = async () => {
         try {
-            // 1. ÖNCE TELEFON HAFIZASINA BAK (Offline Mod)
             const kayitliVeriString = await AsyncStorage.getItem('sonGuncelVeriler');
             const kayitliKonumData = await AsyncStorage.getItem('kullaniciKonumu');
             const kayitliIsimData = await AsyncStorage.getItem('kullaniciIsmi');
@@ -97,12 +91,11 @@ export default function App() {
 
             if (kayitliVeriString) {
                 const kayitliVeri = JSON.parse(kayitliVeriString);
-                // Eğer kayıtlı veri düzgünse hemen ekrana bas
                 if(kayitliVeri.sehirler) {
                     setSehirVerileri(kayitliVeri.sehirler);
                     setVeriKaynagi('Hafıza');
                 } else if (kayitliVeri) {
-                      setSehirVerileri(kayitliVeri); // Eski format desteği
+                      setSehirVerileri(kayitliVeri); 
                       setVeriKaynagi('Hafıza');
                 }
             }
@@ -113,30 +106,19 @@ export default function App() {
             } else { setIlkAcilisModali(true); }
             if (temaTercihi) setIsDarkMode(temaTercihi === 'dark');
 
-            // 2. ARKA PLANDA GITHUB'DAN EN YENİSİNİ ÇEK (Online Mod)
             if (ONLINE_JSON_URL) {
                 fetch(ONLINE_JSON_URL)
                     .then(res => res.json())
                     .then(async (onlineData) => {
-                        // Veri yapısını kontrol et ve ayıkla
                         const yeniVeri = onlineData.sehirler ? onlineData.sehirler : onlineData;
-                        
-                        // State'i güncelle (Ekrana yansıt)
                         setSehirVerileri(yeniVeri);
                         setVeriKaynagi('Canlı');
-                        console.log("✅ Veriler GitHub'dan güncellendi!");
-
-                        // Gelecek sefer için hafızaya kaydet
                         await AsyncStorage.setItem('sonGuncelVeriler', JSON.stringify(onlineData));
                     })
-                    .catch((err) => {
-                        console.log("⚠️ İnternet yok veya GitHub'a ulaşılamadı. Hafızadaki veri kullanılıyor.");
-                    });
+                    .catch((err) => { console.log("Hafızadan devam."); });
             }
 
-        } catch (e) {
-            console.log("Veri yükleme hatası:", e);
-        }
+        } catch (e) { console.log("Hata:", e); }
     };
 
     verileriYukle();
@@ -180,23 +162,37 @@ export default function App() {
     } catch(e) {}
   }
 
-  const konumumuBul = async () => {
+  const konumIsleminiBaslat = async () => {
     setKonumBulunuyor(true); setKonumBasarili(false);
     try {
       let { status } = await Location.requestForegroundPermissionsAsync();
-      if (status !== 'granted') { Alert.alert('Hata', 'Konum izni verilmedi.'); setKonumBulunuyor(false); return; }
+      if (status !== 'granted') { Alert.alert('İzin Gerekli', 'Otomatik ilçe bulma için konum izni vermeniz gerekir. İsterseniz elle de seçebilirsiniz.'); setKonumBulunuyor(false); return; }
+      
       let location = await Location.getCurrentPositionAsync({});
       let address = await Location.reverseGeocodeAsync({ latitude: location.coords.latitude, longitude: location.coords.longitude });
       if (address && address.length > 0) {
         const { region, subregion } = address[0]; 
-        const es = Object.keys(sehirVerileri).find(s => s.toLocaleUpperCase('tr-TR') === region?.toLocaleUpperCase('tr-TR'));
-        if (es) {
-            setTempSehir(es);
-            const ei = Object.keys(sehirVerileri[es]).find(i => i.toLocaleUpperCase('tr-TR') === subregion?.toLocaleUpperCase('tr-TR'));
-            if (ei) { setTempIlce(ei); setKonumBasarili(true); }
-        } else { Alert.alert("Hata", "Bulunduğunuz şehir sistemde yok."); }
+        const bulunanSehir = Object.keys(sehirVerileri).find(s => s.toLocaleUpperCase('tr-TR') === region?.toLocaleUpperCase('tr-TR'));
+        
+        if (bulunanSehir) {
+            setTempSehir(bulunanSehir);
+            const bulunanIlce = Object.keys(sehirVerileri[bulunanSehir]).find(i => i.toLocaleUpperCase('tr-TR') === subregion?.toLocaleUpperCase('tr-TR'));
+            if (bulunanIlce) { setTempIlce(bulunanIlce); setKonumBasarili(true); }
+             else { Alert.alert("Bilgi", `Şehriniz (${region}) bulundu ancak ilçeniz (${subregion}) tam eşleşmedi. Lütfen listeden seçiniz.`); }
+        } else { Alert.alert("Bilgi", "Bulunduğunuz şehir listede tam eşleşmedi, lütfen elle seçiniz."); }
       }
-    } catch (error) { Alert.alert("Hata", "GPS hatası."); } finally { setKonumBulunuyor(false); }
+    } catch (error) { Alert.alert("Hata", "GPS sinyali alınamadı."); } finally { setKonumBulunuyor(false); }
+  };
+
+  const konumumuBul = async () => {
+    Alert.alert(
+      "Konum İzni 📍",
+      "En yakın istasyon fiyatlarını göstermek için ilçenizi bulmamız gerekiyor.\n\nKonumunuz kaydedilmez.",
+      [
+        { text: "Vazgeç", style: "cancel" },
+        { text: "İzin Ver", onPress: konumIsleminiBaslat }
+      ]
+    );
   };
 
   const kurulumuTamamla = async () => {
@@ -354,40 +350,49 @@ export default function App() {
          <TouchableOpacity style={styles.tabItem} onPress={() => { setAktifEkran('sehir_secimi'); setSeciliSehir(null); setSeciliIlce(null); }}><View style={[styles.tabIconWrapper, (aktifEkran==='sehir_secimi'||aktifEkran==='ilce_secimi') && styles.activeTab]}><Feather name="search" size={24} color={(aktifEkran==='sehir_secimi'||aktifEkran==='ilce_secimi')?'#fff':'#94a3b8'}/></View><Text style={styles.tabText}>Tüm İller</Text></TouchableOpacity>
       </View>
 
-      <Modal visible={ilkAcilisModali} animationType="slide" transparent={true}>
+      <Modal visible={ilkAcilisModali} animationType="fade" transparent={true}>
           <View style={styles.modalOverlay}>
               <View style={[styles.modalContent, { backgroundColor: colors.card }]}>
                   {modalGorunumu === 'form' ? (
                     <>
-                        <View style={{flexDirection:'row', justifyContent:'space-between', alignItems:'center', marginBottom:20}}>
-                            <Text style={[styles.modalTitleCenter, {color: colors.text, marginBottom:0}]}>⚙️ Ayarlar</Text>
-                            <View style={{flexDirection:'row', alignItems:'center'}}><Feather name={isDarkMode ? "moon" : "sun"} size={20} color={colors.text} style={{marginRight:8}} /><Switch value={isDarkMode} onValueChange={toggleTheme} /></View>
+                        <View style={{flexDirection:'row', justifyContent:'space-between', alignItems:'center', marginBottom:15}}>
+                            <Text style={[styles.modalTitleCenter, {color: colors.text}]}>Ayarlar</Text>
+                            <Switch value={isDarkMode} onValueChange={toggleTheme} thumbColor={colors.primary} trackColor={{false:'#E2E8F0', true:colors.inputBg}} />
                         </View>
-                        <TextInput style={[styles.textInputBox, { backgroundColor: colors.inputBg, borderColor: colors.border, color: colors.text }]} placeholder="Adınız" placeholderTextColor={colors.subText} value={tempIsim} onChangeText={setTempIsim} />
+                        <TextInput style={[styles.textInputBox, { backgroundColor: colors.inputBg, color: colors.text }]} placeholder="Adınız" placeholderTextColor={colors.subText} value={tempIsim} onChangeText={setTempIsim} />
                         
-                        <TouchableOpacity style={[styles.gpsButton, { backgroundColor: konumBasarili ? colors.success : '#10B981' }]} onPress={konumumuBul} disabled={konumBulunuyor}>
-                            {konumBulunuyor ? <ActivityIndicator color="#fff" /> : 
+                        <TouchableOpacity 
+                            style={[styles.gpsButton, { borderColor: konumBasarili ? colors.success : colors.primary }]} 
+                            onPress={konumumuBul} 
+                            disabled={konumBulunuyor || konumBasarili}>
+                            {konumBulunuyor ? <ActivityIndicator size="small" color={colors.primary} /> : 
                             <View style={{flexDirection:'row', alignItems:'center', justifyContent:'center'}}>
-                                <MaterialCommunityIcons name={konumBasarili?"check-circle":"crosshairs-gps"} size={22} color="#fff" style={{marginRight:8}}/>
-                                <Text style={{color:'#fff', fontWeight:'bold', fontSize:16}}>{konumBasarili ? "Konum Alındı" : "Konumumu Bul"}</Text>
+                                <Feather name={konumBasarili?"check":"map-pin"} size={16} color={konumBasarili ? colors.success : colors.primary} style={{marginRight:6}}/>
+                                <Text style={{color: konumBasarili ? colors.success : colors.primary, fontWeight:'600', fontSize:14}}>{konumBasarili ? "Konum Alındı" : "Konumumu Bul"}</Text>
                             </View>}
                         </TouchableOpacity>
 
-                        <TouchableOpacity style={[styles.selectorBox, { backgroundColor: colors.inputBg, borderColor: colors.border }]} onPress={() => setModalGorunumu('sehir')}><Text style={{color: colors.text}}>{tempSehir ? baslikDuzenle(tempSehir) : "Şehir Seç"}</Text><Feather name="chevron-down" size={16} color={colors.text} /></TouchableOpacity>
-                        <TouchableOpacity style={[styles.selectorBox, { backgroundColor: colors.inputBg, borderColor: colors.border }, !tempSehir && {opacity:0.5}]} onPress={() => tempSehir && setModalGorunumu('ilce')} disabled={!tempSehir}><Text style={{color: colors.text}}>{tempIlce ? baslikDuzenle(tempIlce) : "İlçe Seç"}</Text><Feather name="chevron-down" size={16} color={colors.text} /></TouchableOpacity>
+                        <TouchableOpacity style={[styles.selectorBox, { backgroundColor: colors.inputBg }]} onPress={() => setModalGorunumu('sehir')}><Text style={{color: colors.text, fontSize:15}}>{tempSehir ? baslikDuzenle(tempSehir) : "Şehir Seç"}</Text><Feather name="chevron-down" size={16} color={colors.subText} /></TouchableOpacity>
+                        <TouchableOpacity style={[styles.selectorBox, { backgroundColor: colors.inputBg }, !tempSehir && {opacity:0.5}]} onPress={() => tempSehir && setModalGorunumu('ilce')} disabled={!tempSehir}><Text style={{color: colors.text, fontSize:15}}>{tempIlce ? baslikDuzenle(tempIlce) : "İlçe Seç"}</Text><Feather name="chevron-down" size={16} color={colors.subText} /></TouchableOpacity>
                         
                         <View style={{marginTop:20}}>
-                            <TouchableOpacity style={[styles.saveButton, { backgroundColor: colors.primary }]} onPress={kurulumuTamamla}><Text style={styles.saveButtonText}>Kaydet ve Başla</Text></TouchableOpacity>
-                            {kayitliKonum && <TouchableOpacity style={[styles.cancelButton, { backgroundColor: colors.inputBg }]} onPress={() => setIlkAcilisModali(false)}><Text style={{color: colors.subText}}>Vazgeç</Text></TouchableOpacity>}
+                            <TouchableOpacity style={[styles.saveButton, { backgroundColor: colors.primary }]} onPress={kurulumuTamamla}>
+                                <Text style={styles.saveButtonText}>Kaydet</Text>
+                            </TouchableOpacity>
+                            {kayitliKonum && (
+                                <TouchableOpacity style={styles.cancelButtonTextOnly} onPress={() => setIlkAcilisModali(false)}>
+                                    <Text style={{color: colors.subText, fontSize:14}}>Vazgeç</Text>
+                                </TouchableOpacity>
+                            )}
                         </View>
                     </>
                   ) : (
                     <View style={{flex:1}}>
-                        <View style={[styles.selectorHeader, { borderBottomColor: colors.border }]}><Text style={[styles.selectorTitle, { color: colors.text }]}>{modalGorunumu === 'sehir' ? 'Şehir Seç' : 'İlçe Seç'}</Text><TouchableOpacity onPress={() => setModalGorunumu('form')}><Text style={{color:'#FF3B30'}}>Geri</Text></TouchableOpacity></View>
+                        <View style={[styles.selectorHeader, { borderBottomColor: colors.border }]}><Text style={[styles.selectorTitle, { color: colors.text }]}>{modalGorunumu === 'sehir' ? 'Şehir Seç' : 'İlçe Seç'}</Text><TouchableOpacity onPress={() => setModalGorunumu('form')}><Text style={{color: colors.primary, fontSize:14}}>Bitti</Text></TouchableOpacity></View>
                         <FlatList data={modalGorunumu === 'sehir' ? Object.keys(sehirVerileri).sort() : Object.keys(sehirVerileri[tempSehir] || {}).sort()}
                             renderItem={({item}) => (
                                 <TouchableOpacity style={[styles.modalItem, { borderBottomColor: colors.border }]} onPress={() => { if(modalGorunumu==='sehir'){ setTempSehir(item); setTempIlce(null); setKonumBasarili(false); } else { setTempIlce(item); } setModalGorunumu('form'); }}>
-                                    <Text style={[styles.modalItemText, { color: colors.text }]}>{baslikDuzenle(item)}</Text>{((modalGorunumu==='sehir' && tempSehir===item) || (modalGorunumu==='ilce' && tempIlce===item)) && <Feather name="check" size={18} color={colors.primary}/>}
+                                    <Text style={[styles.modalItemText, { color: colors.text }]}>{baslikDuzenle(item)}</Text>{((modalGorunumu==='sehir' && tempSehir===item) || (modalGorunumu==='ilce' && tempIlce===item)) && <Feather name="check" size={16} color={colors.primary}/>}
                                 </TouchableOpacity>
                             )}
                         />
@@ -456,24 +461,30 @@ const styles = StyleSheet.create({
   tabIconWrapper: { width: 44, height: 44, justifyContent: 'center', alignItems: 'center', borderRadius: 22 },
   activeTab: { backgroundColor: 'rgba(255,255,255,0.15)' },
   tabText: { fontSize: 10, fontWeight:'600', marginTop: -2 },
-  modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', alignItems: 'center', padding: 20 },
-  modalContent: { borderRadius: 24, padding: 24, width: '100%', height: '75%', shadowColor: '#000', shadowOpacity: 0.2, shadowRadius: 20, elevation: 5 },
+  
+  // --- YENİLENEN MODAL STİLİ (SOFT & KİBAR) ---
+  modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.4)', justifyContent: 'center', alignItems: 'center' },
+  modalContent: { borderRadius: 24, padding: 24, width: '82%', backgroundColor: '#fff', shadowColor: '#000', shadowOpacity: 0.1, shadowRadius: 20, elevation: 5 },
   modalHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 15 },
   modalDate: { fontSize: 13, fontWeight: '600', marginBottom: 4 },
   modalTitle: { fontSize: 18, fontWeight: '800', lineHeight: 24 },
   modalBody: { fontSize: 16, lineHeight: 24 },
-  modalTitleCenter: { fontSize: 20, fontWeight: '800', textAlign:'center' },
-  textInputBox: { borderWidth: 1, borderRadius: 12, paddingHorizontal: 15, paddingVertical: 12, fontSize: 15, marginBottom:15 },
-  selectorBox: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderWidth: 1, borderRadius: 12, paddingHorizontal: 15, paddingVertical: 12, marginBottom:10 },
-  saveButton: { borderRadius: 12, paddingVertical: 14, alignItems: 'center', shadowOpacity:0.3, shadowRadius:5, elevation:4 },
-  saveButtonText: { color: '#fff', fontSize: 16, fontWeight: 'bold' },
-  cancelButton: { marginTop: 12, paddingVertical: 10, alignItems: 'center', borderRadius:12 },
-  cancelButtonText: { fontWeight:'600' },
-  gpsButton: { flexDirection:'row', alignItems:'center', justifyContent:'center', paddingVertical:14, borderRadius:12, marginBottom:15, shadowOpacity:0.2, shadowRadius:4, elevation:2 },
+  modalTitleCenter: { fontSize: 20, fontWeight: '700', letterSpacing: -0.5 },
+  
+  // Kutular inceltildi, soft renkler verildi
+  textInputBox: { borderRadius: 12, paddingHorizontal: 15, paddingVertical: 12, fontSize: 15, marginBottom:12 },
+  selectorBox: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderRadius: 12, paddingHorizontal: 15, paddingVertical: 12, marginBottom:10 },
+  
+  // Butonlar küçüldü ve kibar hale geldi
+  saveButton: { borderRadius: 14, paddingVertical: 12, alignItems: 'center', shadowOpacity:0.1, shadowRadius:5, elevation:2 },
+  saveButtonText: { color: '#fff', fontSize: 16, fontWeight: '600' },
+  cancelButtonTextOnly: { marginTop: 12, paddingVertical: 8, alignItems: 'center', justifyContent:'center' },
+  gpsButton: { flexDirection:'row', alignItems:'center', justifyContent:'center', paddingVertical:10, borderRadius:12, marginBottom:18, borderWidth: 1, borderStyle: 'dashed' },
+  
   selectorHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 15, paddingBottom: 10, borderBottomWidth: 1 },
-  selectorTitle: { fontSize: 18, fontWeight: 'bold' },
-  modalItem: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingVertical: 15, borderBottomWidth: 1 },
-  modalItemText: { fontSize: 16 },
+  selectorTitle: { fontSize: 16, fontWeight: 'bold' },
+  modalItem: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingVertical: 12, borderBottomWidth: 1 },
+  modalItemText: { fontSize: 15 },
   searchBar: { flexDirection:'row', alignItems:'center', padding:14, borderRadius:20, marginBottom:20, borderWidth:1, shadowOpacity:0.02, shadowRadius:5 },
   simpleListItem: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingVertical: 16, borderBottomWidth: 1 },
   simpleListText: { fontSize: 16, fontWeight: '600', marginLeft: 12 },
