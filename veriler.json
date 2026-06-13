@@ -53,7 +53,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -229,7 +229,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -387,7 +387,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -539,7 +539,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -703,7 +703,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -885,7 +885,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -1061,7 +1061,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -1243,7 +1243,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -1407,7 +1407,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -1583,7 +1583,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -1753,7 +1753,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -1923,7 +1923,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -2099,7 +2099,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -2269,7 +2269,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -2439,7 +2439,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -2617,7 +2617,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -2669,7 +2669,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -2769,7 +2769,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -2839,7 +2839,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -2939,7 +2939,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -3009,7 +3009,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -3115,7 +3115,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -3185,7 +3185,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -3285,7 +3285,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -3355,7 +3355,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -3455,7 +3455,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -3525,7 +3525,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -3625,7 +3625,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -3695,7 +3695,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -3795,7 +3795,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -3865,7 +3865,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -3965,7 +3965,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,99"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -4035,7 +4035,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,90",
+                "benzin": "₺65,20",
                 "motorin": "₺68,50",
                 "lpg": "-"
             },
@@ -4143,7 +4143,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -4195,7 +4195,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -4295,7 +4295,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -4365,7 +4365,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -4471,7 +4471,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -4541,7 +4541,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -4647,7 +4647,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -4717,7 +4717,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -4823,7 +4823,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -4887,7 +4887,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -4993,7 +4993,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -5063,7 +5063,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -5163,7 +5163,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -5233,7 +5233,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -5339,7 +5339,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -5409,7 +5409,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -5515,7 +5515,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -5585,7 +5585,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -5685,7 +5685,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -5755,7 +5755,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -5855,7 +5855,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -5925,7 +5925,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -6025,7 +6025,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -6095,7 +6095,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -6195,7 +6195,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -6265,7 +6265,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -6365,7 +6365,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -6435,7 +6435,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -6535,7 +6535,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -6605,7 +6605,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -6705,7 +6705,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -6775,7 +6775,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -6875,7 +6875,7 @@
                 "marka": "Aygaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺29,72"
+                "lpg": "-"
             },
             {
                 "marka": "Milangaz",
@@ -6945,7 +6945,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,80",
+                "benzin": "₺65,10",
                 "motorin": "₺68,49",
                 "lpg": "-"
             },
@@ -14773,7 +14773,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -14937,7 +14937,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -15113,7 +15113,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -15289,7 +15289,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -15441,7 +15441,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -15623,7 +15623,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -15787,7 +15787,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -15969,7 +15969,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -16127,7 +16127,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -16303,7 +16303,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -16479,7 +16479,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -16655,7 +16655,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -16831,7 +16831,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -17007,7 +17007,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -17183,7 +17183,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -17347,7 +17347,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -17517,7 +17517,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -17675,7 +17675,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -17845,7 +17845,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,94",
+                "benzin": "₺65,24",
                 "motorin": "₺68,61",
                 "lpg": "-"
             },
@@ -23047,7 +23047,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -23199,7 +23199,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -23375,7 +23375,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -23551,7 +23551,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -23727,7 +23727,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -23903,7 +23903,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -24079,7 +24079,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -24249,7 +24249,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -24425,7 +24425,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -24601,7 +24601,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -24777,7 +24777,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -24959,7 +24959,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -25129,7 +25129,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -25305,7 +25305,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -25475,7 +25475,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -25645,7 +25645,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -25815,7 +25815,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -25985,7 +25985,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -26155,7 +26155,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -26313,7 +26313,7 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,32",
+                "benzin": "₺64,32",
                 "motorin": "₺67,90",
                 "lpg": "-"
             },
@@ -27113,8 +27113,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,20",
-                "motorin": "₺68,88",
+                "benzin": "₺65,20",
+                "motorin": "₺69,10",
                 "lpg": "-"
             },
             {
@@ -27277,8 +27277,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,20",
-                "motorin": "₺68,88",
+                "benzin": "₺65,20",
+                "motorin": "₺69,10",
                 "lpg": "-"
             },
             {
@@ -27447,8 +27447,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,20",
-                "motorin": "₺68,88",
+                "benzin": "₺65,20",
+                "motorin": "₺69,10",
                 "lpg": "-"
             },
             {
@@ -27617,8 +27617,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,20",
-                "motorin": "₺68,88",
+                "benzin": "₺65,20",
+                "motorin": "₺69,10",
                 "lpg": "-"
             },
             {
@@ -27787,8 +27787,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,20",
-                "motorin": "₺68,88",
+                "benzin": "₺65,20",
+                "motorin": "₺69,10",
                 "lpg": "-"
             },
             {
@@ -27957,8 +27957,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,20",
-                "motorin": "₺68,88",
+                "benzin": "₺65,20",
+                "motorin": "₺69,10",
                 "lpg": "-"
             },
             {
@@ -32257,8 +32257,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -32427,8 +32427,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -32597,8 +32597,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -32767,8 +32767,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -32937,8 +32937,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -33107,8 +33107,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -33283,8 +33283,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -33453,8 +33453,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -33623,8 +33623,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,81",
-                "motorin": "₺67,17",
+                "benzin": "₺64,11",
+                "motorin": "₺67,44",
                 "lpg": "-"
             },
             {
@@ -33777,8 +33777,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -33947,8 +33947,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -34117,8 +34117,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -34287,8 +34287,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -34463,8 +34463,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -34633,8 +34633,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -34803,8 +34803,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -34979,8 +34979,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -35149,8 +35149,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -35319,8 +35319,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -35489,8 +35489,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,78",
-                "motorin": "₺68,45",
+                "benzin": "₺65,08",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -38589,8 +38589,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -38759,8 +38759,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -38935,8 +38935,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -39111,8 +39111,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -39287,8 +39287,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -39463,8 +39463,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -39633,8 +39633,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -39803,8 +39803,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -39979,8 +39979,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -40149,8 +40149,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -40319,8 +40319,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -40489,8 +40489,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,38",
-                "motorin": "₺67,94",
+                "benzin": "₺64,69",
+                "motorin": "₺68,21",
                 "lpg": "-"
             },
             {
@@ -44778,8 +44778,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -44918,8 +44918,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -45094,8 +45094,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -45264,8 +45264,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -45440,8 +45440,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -45616,8 +45616,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -45792,8 +45792,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -45962,8 +45962,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -46138,8 +46138,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -46308,8 +46308,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -46478,8 +46478,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -46648,8 +46648,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -46824,8 +46824,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -46994,8 +46994,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -47164,8 +47164,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -47334,8 +47334,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -47504,8 +47504,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -47674,8 +47674,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -47844,8 +47844,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,45",
-                "motorin": "₺68,09",
+                "benzin": "₺64,70",
+                "motorin": "₺68,36",
                 "lpg": "-"
             },
             {
@@ -47998,8 +47998,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -48156,8 +48156,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -48314,8 +48314,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -48478,8 +48478,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -48660,8 +48660,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -48842,8 +48842,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -49012,8 +49012,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -49182,8 +49182,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -49352,8 +49352,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -49522,8 +49522,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -49692,8 +49692,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -49862,8 +49862,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -50032,8 +50032,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -50202,8 +50202,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -50372,8 +50372,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -50542,8 +50542,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -50712,8 +50712,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,19",
-                "motorin": "₺68,88",
+                "benzin": "₺65,60",
+                "motorin": "₺69,15",
                 "lpg": "-"
             },
             {
@@ -52162,8 +52162,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -52332,8 +52332,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -52508,8 +52508,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -52684,8 +52684,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -52860,8 +52860,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -53030,8 +53030,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -53200,8 +53200,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -53370,8 +53370,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -53540,8 +53540,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,85",
-                "motorin": "₺67,45",
+                "benzin": "₺64,16",
+                "motorin": "₺67,72",
                 "lpg": "-"
             },
             {
@@ -62329,8 +62329,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -62493,8 +62493,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -62663,8 +62663,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -62833,8 +62833,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -63009,8 +63009,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -63179,8 +63179,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -63355,8 +63355,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -63519,8 +63519,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -63683,8 +63683,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,70",
-                "motorin": "₺68,26",
+                "benzin": "₺65,01",
+                "motorin": "₺68,53",
                 "lpg": "-"
             },
             {
@@ -67280,8 +67280,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -67456,8 +67456,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -67602,8 +67602,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -67784,8 +67784,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -67960,8 +67960,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -68142,8 +68142,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -68312,8 +68312,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -68452,8 +68452,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -68622,8 +68622,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -68798,8 +68798,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -68974,8 +68974,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -69114,8 +69114,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -69290,8 +69290,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -69466,8 +69466,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -69636,8 +69636,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,02",
+                "benzin": "₺64,74",
+                "motorin": "₺68,29",
                 "lpg": "-"
             },
             {
@@ -72534,8 +72534,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -72704,8 +72704,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -72874,8 +72874,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -73044,8 +73044,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -73214,8 +73214,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -73372,8 +73372,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -73548,8 +73548,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -73718,8 +73718,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -73864,8 +73864,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -74034,8 +74034,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -74204,8 +74204,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -74374,8 +74374,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -74544,8 +74544,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -74702,8 +74702,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -74866,8 +74866,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -75036,8 +75036,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -75206,8 +75206,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -75370,8 +75370,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -75540,8 +75540,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -75710,8 +75710,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -75880,8 +75880,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -76050,8 +76050,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -76196,8 +76196,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -76366,8 +76366,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -76536,8 +76536,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺63,77",
-                "motorin": "₺66,18",
+                "benzin": "₺63,08",
+                "motorin": "₺66,45",
                 "lpg": "-"
             },
             {
@@ -79024,8 +79024,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -79176,8 +79176,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -79340,8 +79340,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -79492,8 +79492,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -79650,8 +79650,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -79796,8 +79796,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -79966,8 +79966,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -80142,8 +80142,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -80324,8 +80324,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -80482,8 +80482,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -80658,8 +80658,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -80834,8 +80834,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -81010,8 +81010,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -81186,8 +81186,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -81362,8 +81362,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -81538,8 +81538,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -81690,8 +81690,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -81848,8 +81848,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -82024,8 +82024,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -82194,8 +82194,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -82370,8 +82370,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -82546,8 +82546,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -82722,8 +82722,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -82892,8 +82892,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -83068,8 +83068,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -83214,8 +83214,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -83390,8 +83390,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -83566,8 +83566,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -83736,8 +83736,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -83912,8 +83912,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,01",
-                "motorin": "₺67,58",
+                "benzin": "₺64,32",
+                "motorin": "₺67,85",
                 "lpg": "-"
             },
             {
@@ -84072,8 +84072,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -84230,8 +84230,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -84406,8 +84406,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -84582,8 +84582,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -84752,8 +84752,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -84922,8 +84922,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -85092,8 +85092,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -85256,8 +85256,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -85420,8 +85420,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -85578,8 +85578,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -85742,8 +85742,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,68",
-                "motorin": "₺68,29",
+                "benzin": "₺65,00",
+                "motorin": "₺68,56",
                 "lpg": "-"
             },
             {
@@ -87780,7 +87780,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,88"
             },
             {
                 "marka": "Sunpet",
@@ -87914,7 +87914,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,88"
             },
             {
                 "marka": "Sunpet",
@@ -88078,7 +88078,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,88"
             },
             {
                 "marka": "Sunpet",
@@ -88242,7 +88242,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,88"
             },
             {
                 "marka": "Sunpet",
@@ -88406,7 +88406,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,88"
             },
             {
                 "marka": "Sunpet",
@@ -88564,7 +88564,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,88"
             },
             {
                 "marka": "Alpet",
@@ -88716,7 +88716,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,88"
             },
             {
                 "marka": "Alpet",
@@ -88862,7 +88862,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,88"
             },
             {
                 "marka": "Alpet",
@@ -89028,7 +89028,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -89168,7 +89168,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -89332,7 +89332,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -89496,7 +89496,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -89660,7 +89660,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -89824,7 +89824,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -89988,7 +89988,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -90158,7 +90158,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -90322,7 +90322,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -90486,7 +90486,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -90638,7 +90638,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -90796,7 +90796,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -90960,7 +90960,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -91124,7 +91124,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -91294,7 +91294,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -91458,7 +91458,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -91622,7 +91622,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -91786,7 +91786,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -91956,7 +91956,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,86"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -94848,8 +94848,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,03",
+                "benzin": "₺64,74",
+                "motorin": "₺68,30",
                 "lpg": "-"
             },
             {
@@ -95012,8 +95012,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,03",
+                "benzin": "₺64,74",
+                "motorin": "₺68,30",
                 "lpg": "-"
             },
             {
@@ -95182,8 +95182,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,03",
+                "benzin": "₺64,74",
+                "motorin": "₺68,30",
                 "lpg": "-"
             },
             {
@@ -95352,8 +95352,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,43",
-                "motorin": "₺68,03",
+                "benzin": "₺64,74",
+                "motorin": "₺68,30",
                 "lpg": "-"
             },
             {
@@ -96938,7 +96938,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,62"
             },
             {
                 "marka": "Sunpet",
@@ -97078,7 +97078,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,62"
             },
             {
                 "marka": "Sunpet",
@@ -97248,7 +97248,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,62"
             },
             {
                 "marka": "Sunpet",
@@ -97418,7 +97418,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,62"
             },
             {
                 "marka": "Sunpet",
@@ -97588,7 +97588,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,62"
             },
             {
                 "marka": "Sunpet",
@@ -97746,7 +97746,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,62"
             },
             {
                 "marka": "Alpet",
@@ -97898,7 +97898,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,62"
             },
             {
                 "marka": "Alpet",
@@ -98050,7 +98050,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,62"
             },
             {
                 "marka": "Alpet",
@@ -98216,7 +98216,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,86"
             },
             {
                 "marka": "Sunpet",
@@ -98350,7 +98350,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,86"
             },
             {
                 "marka": "Sunpet",
@@ -98520,7 +98520,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,86"
             },
             {
                 "marka": "Sunpet",
@@ -98684,7 +98684,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,86"
             },
             {
                 "marka": "Sunpet",
@@ -98848,7 +98848,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,86"
             },
             {
                 "marka": "Sunpet",
@@ -99012,7 +99012,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,86"
             },
             {
                 "marka": "Sunpet",
@@ -99176,7 +99176,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,86"
             },
             {
                 "marka": "Sunpet",
@@ -99348,7 +99348,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -99406,8 +99406,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -99506,7 +99506,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -99546,8 +99546,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -99652,7 +99652,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -99704,8 +99704,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -99822,7 +99822,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -99886,8 +99886,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -100004,7 +100004,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -100062,8 +100062,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -100168,7 +100168,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -100220,8 +100220,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -100326,7 +100326,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -100372,8 +100372,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -100472,7 +100472,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -100518,8 +100518,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -100624,7 +100624,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -100670,8 +100670,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -100788,7 +100788,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -100846,8 +100846,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -100946,7 +100946,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -100992,8 +100992,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -101104,7 +101104,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺31,90"
             },
             {
                 "marka": "Sunpet",
@@ -101162,8 +101162,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,17",
-                "motorin": "₺66,55",
+                "benzin": "₺63,48",
+                "motorin": "₺66,82",
                 "lpg": "-"
             },
             {
@@ -101328,8 +101328,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -101498,8 +101498,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -101662,8 +101662,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -101838,8 +101838,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -102020,8 +102020,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -102196,8 +102196,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -102366,8 +102366,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -102548,8 +102548,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -102718,8 +102718,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -102894,8 +102894,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -103070,8 +103070,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -103246,8 +103246,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -103416,8 +103416,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -103592,8 +103592,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -103762,8 +103762,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -103932,8 +103932,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -104102,8 +104102,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -104273,8 +104273,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -104449,8 +104449,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -104619,8 +104619,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -104789,8 +104789,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -104959,8 +104959,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -105129,8 +105129,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -105299,8 +105299,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -105469,8 +105469,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -105633,8 +105633,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,74",
-                "motorin": "₺68,46",
+                "benzin": "₺65,05",
+                "motorin": "₺68,73",
                 "lpg": "-"
             },
             {
@@ -105747,7 +105747,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -105887,7 +105887,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -106063,7 +106063,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -106239,7 +106239,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -106403,7 +106403,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -106567,7 +106567,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -106731,7 +106731,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -106895,7 +106895,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -107059,7 +107059,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -107223,7 +107223,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -107387,7 +107387,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -107551,7 +107551,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,72"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -109723,8 +109723,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -109875,8 +109875,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -110051,8 +110051,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -110233,8 +110233,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -110409,8 +110409,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -110585,8 +110585,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -110761,8 +110761,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -110931,8 +110931,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -111107,8 +111107,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -111283,8 +111283,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -111453,8 +111453,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -111629,8 +111629,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -111799,8 +111799,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -111969,8 +111969,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -112145,8 +112145,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -112321,8 +112321,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -112491,8 +112491,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,09",
-                "motorin": "₺67,65",
+                "benzin": "₺64,40",
+                "motorin": "₺67,92",
                 "lpg": "-"
             },
             {
@@ -112675,8 +112675,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -112839,8 +112839,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -113015,8 +113015,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -113197,8 +113197,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -113367,8 +113367,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -113537,8 +113537,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -113707,8 +113707,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -113877,8 +113877,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -114047,8 +114047,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -114217,8 +114217,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,21",
-                "motorin": "₺68,89",
+                "benzin": "₺65,52",
+                "motorin": "₺69,16",
                 "lpg": "-"
             },
             {
@@ -116266,7 +116266,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -116448,7 +116448,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -116624,7 +116624,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -116800,7 +116800,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -116964,7 +116964,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -117146,7 +117146,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -117310,7 +117310,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -117486,7 +117486,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -117662,7 +117662,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -117832,7 +117832,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -118008,7 +118008,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -118178,7 +118178,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -118348,7 +118348,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,88"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -118526,7 +118526,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -118560,8 +118560,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,28",
-                "motorin": "₺68,95",
+                "benzin": "₺65,62",
+                "motorin": "₺69,25",
                 "lpg": "-"
             },
             {
@@ -118666,7 +118666,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -118730,8 +118730,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,28",
-                "motorin": "₺68,95",
+                "benzin": "₺65,62",
+                "motorin": "₺69,25",
                 "lpg": "-"
             },
             {
@@ -118842,7 +118842,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -118900,8 +118900,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,28",
-                "motorin": "₺68,95",
+                "benzin": "₺65,62",
+                "motorin": "₺69,25",
                 "lpg": "-"
             },
             {
@@ -119012,7 +119012,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -119070,8 +119070,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,28",
-                "motorin": "₺68,95",
+                "benzin": "₺65,62",
+                "motorin": "₺69,25",
                 "lpg": "-"
             },
             {
@@ -119176,7 +119176,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Alpet",
@@ -119228,8 +119228,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,28",
-                "motorin": "₺68,95",
+                "benzin": "₺65,62",
+                "motorin": "₺69,25",
                 "lpg": "-"
             },
             {
@@ -119340,7 +119340,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -119398,8 +119398,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,28",
-                "motorin": "₺68,95",
+                "benzin": "₺65,62",
+                "motorin": "₺69,25",
                 "lpg": "-"
             },
             {
@@ -119518,7 +119518,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,76"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -119658,7 +119658,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,76"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -119822,7 +119822,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,76"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -119992,7 +119992,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,76"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -120162,7 +120162,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,76"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -120332,7 +120332,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,76"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -120502,7 +120502,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,76"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -120666,7 +120666,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,76"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -120872,8 +120872,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,55",
-                "motorin": "₺68,13",
+                "benzin": "₺64,86",
+                "motorin": "₺68,40",
                 "lpg": "-"
             },
             {
@@ -121036,8 +121036,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,55",
-                "motorin": "₺68,13",
+                "benzin": "₺64,86",
+                "motorin": "₺68,40",
                 "lpg": "-"
             },
             {
@@ -121200,8 +121200,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,55",
-                "motorin": "₺68,13",
+                "benzin": "₺64,86",
+                "motorin": "₺68,40",
                 "lpg": "-"
             },
             {
@@ -121364,8 +121364,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,55",
-                "motorin": "₺68,13",
+                "benzin": "₺64,86",
+                "motorin": "₺68,40",
                 "lpg": "-"
             },
             {
@@ -121528,8 +121528,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,55",
-                "motorin": "₺68,13",
+                "benzin": "₺64,86",
+                "motorin": "₺68,40",
                 "lpg": "-"
             },
             {
@@ -121692,8 +121692,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,55",
-                "motorin": "₺68,13",
+                "benzin": "₺64,86",
+                "motorin": "₺68,40",
                 "lpg": "-"
             },
             {
@@ -121800,7 +121800,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -121852,8 +121852,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -121970,7 +121970,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -122028,8 +122028,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -122146,7 +122146,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -122204,8 +122204,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -122316,7 +122316,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -122368,8 +122368,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -122474,7 +122474,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -122532,8 +122532,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -122644,7 +122644,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -122702,8 +122702,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -122814,7 +122814,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -122872,8 +122872,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -122985,7 +122985,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -123043,8 +123043,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -123161,7 +123161,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -123219,8 +123219,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -123331,7 +123331,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -123389,8 +123389,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -123501,7 +123501,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -123559,8 +123559,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -123672,7 +123672,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -123730,8 +123730,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -123842,7 +123842,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺33,03"
             },
             {
                 "marka": "Sunpet",
@@ -123900,8 +123900,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,34",
-                "motorin": "₺67,88",
+                "benzin": "₺64,65",
+                "motorin": "₺68,15",
                 "lpg": "-"
             },
             {
@@ -125170,7 +125170,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -125310,7 +125310,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -125480,7 +125480,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -125638,7 +125638,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Go",
@@ -125802,7 +125802,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -125966,7 +125966,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -126124,7 +126124,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -126288,7 +126288,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -126446,7 +126446,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -126604,7 +126604,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -126756,7 +126756,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -126908,7 +126908,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,62"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -127114,8 +127114,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -127254,8 +127254,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -127430,8 +127430,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -127582,8 +127582,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -127758,8 +127758,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -127934,8 +127934,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -128110,8 +128110,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -128286,8 +128286,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -128456,8 +128456,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -128632,8 +128632,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -128790,8 +128790,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -128960,8 +128960,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -129130,8 +129130,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -129300,8 +129300,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -129470,8 +129470,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,49",
-                "motorin": "₺66,85",
+                "benzin": "₺63,80",
+                "motorin": "₺67,12",
                 "lpg": "-"
             },
             {
@@ -132234,7 +132234,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,84"
             },
             {
                 "marka": "Sunpet",
@@ -132368,7 +132368,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,84"
             },
             {
                 "marka": "Sunpet",
@@ -132532,7 +132532,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,84"
             },
             {
                 "marka": "Sunpet",
@@ -132696,7 +132696,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,84"
             },
             {
                 "marka": "Sunpet",
@@ -132860,7 +132860,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,84"
             },
             {
                 "marka": "Sunpet",
@@ -133024,7 +133024,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,84"
             },
             {
                 "marka": "Sunpet",
@@ -133182,7 +133182,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,84"
             },
             {
                 "marka": "Alpet",
@@ -136933,7 +136933,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -136991,8 +136991,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -137085,7 +137085,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -137143,8 +137143,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -137261,7 +137261,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -137325,8 +137325,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -137443,7 +137443,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -137507,8 +137507,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -137607,7 +137607,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -137659,8 +137659,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -137765,7 +137765,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -137823,8 +137823,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -137935,7 +137935,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -137993,8 +137993,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -138105,7 +138105,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -138163,8 +138163,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -138275,7 +138275,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -138333,8 +138333,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -138445,7 +138445,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -138509,8 +138509,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -138621,7 +138621,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -138679,8 +138679,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -138797,7 +138797,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -138855,8 +138855,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -138967,7 +138967,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,61"
             },
             {
                 "marka": "Sunpet",
@@ -139019,8 +139019,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,88",
-                "motorin": "₺68,47",
+                "benzin": "₺65,19",
+                "motorin": "₺68,74",
                 "lpg": "-"
             },
             {
@@ -139139,7 +139139,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -139197,8 +139197,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,29",
-                "motorin": "₺68,98",
+                "benzin": "₺65,63",
+                "motorin": "₺69,28",
                 "lpg": "-"
             },
             {
@@ -139309,7 +139309,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -139367,8 +139367,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,29",
-                "motorin": "₺68,98",
+                "benzin": "₺65,63",
+                "motorin": "₺69,28",
                 "lpg": "-"
             },
             {
@@ -139485,7 +139485,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -139525,8 +139525,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,29",
-                "motorin": "₺68,98",
+                "benzin": "₺65,63",
+                "motorin": "₺69,28",
                 "lpg": "-"
             },
             {
@@ -139631,7 +139631,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -139689,8 +139689,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,29",
-                "motorin": "₺68,98",
+                "benzin": "₺65,63",
+                "motorin": "₺69,28",
                 "lpg": "-"
             },
             {
@@ -139795,7 +139795,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Alpet",
@@ -139847,8 +139847,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,29",
-                "motorin": "₺68,98",
+                "benzin": "₺65,63",
+                "motorin": "₺69,28",
                 "lpg": "-"
             },
             {
@@ -139959,7 +139959,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Sunpet",
@@ -140011,8 +140011,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,29",
-                "motorin": "₺68,98",
+                "benzin": "₺65,63",
+                "motorin": "₺69,28",
                 "lpg": "-"
             },
             {
@@ -140117,7 +140117,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,85"
             },
             {
                 "marka": "Alpet",
@@ -140169,8 +140169,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,29",
-                "motorin": "₺68,98",
+                "benzin": "₺65,63",
+                "motorin": "₺69,28",
                 "lpg": "-"
             },
             {
@@ -140289,7 +140289,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -140347,8 +140347,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -140441,7 +140441,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -140487,8 +140487,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -140605,7 +140605,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -140663,8 +140663,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -140757,7 +140757,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -140803,8 +140803,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -140903,7 +140903,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -140949,8 +140949,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -141055,7 +141055,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -141113,8 +141113,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -141231,7 +141231,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -141289,8 +141289,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -141401,7 +141401,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -141459,8 +141459,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -141577,7 +141577,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -141635,8 +141635,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -141753,7 +141753,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -141811,8 +141811,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -141929,7 +141929,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺32,40"
             },
             {
                 "marka": "Sunpet",
@@ -141981,8 +141981,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺64,44",
-                "motorin": "₺67,03",
+                "benzin": "₺63,75",
+                "motorin": "₺67,30",
                 "lpg": "-"
             },
             {
@@ -144035,7 +144035,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -144187,7 +144187,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -144351,7 +144351,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -144521,7 +144521,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -144691,7 +144691,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -144861,7 +144861,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -145031,7 +145031,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -145195,7 +145195,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -145359,7 +145359,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -145535,7 +145535,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -145700,7 +145700,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -145870,7 +145870,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -146034,7 +146034,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -146198,7 +146198,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -146350,7 +146350,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -146502,7 +146502,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -146654,7 +146654,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺33,12"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -146820,7 +146820,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,81"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -146948,7 +146948,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,81"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -147106,7 +147106,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,81"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -147264,7 +147264,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,81"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -147410,7 +147410,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,81"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -147562,7 +147562,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,81"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -147714,7 +147714,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,81"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -147866,7 +147866,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,81"
+                "lpg": "-"
             },
             {
                 "marka": "Alpet",
@@ -148066,8 +148066,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,46",
-                "motorin": "₺68,06",
+                "benzin": "₺64,80",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -148236,8 +148236,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,46",
-                "motorin": "₺68,06",
+                "benzin": "₺64,80",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -148406,8 +148406,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,46",
-                "motorin": "₺68,06",
+                "benzin": "₺64,80",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -148576,8 +148576,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,46",
-                "motorin": "₺68,06",
+                "benzin": "₺64,80",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -148758,8 +148758,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,46",
-                "motorin": "₺68,06",
+                "benzin": "₺64,80",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -148922,8 +148922,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,46",
-                "motorin": "₺68,06",
+                "benzin": "₺64,80",
+                "motorin": "₺68,33",
                 "lpg": "-"
             },
             {
@@ -149082,8 +149082,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -149252,8 +149252,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -149404,8 +149404,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -149580,8 +149580,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -149750,8 +149750,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -149908,8 +149908,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -150078,8 +150078,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -150248,8 +150248,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -150418,8 +150418,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -150588,8 +150588,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -150746,8 +150746,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -150904,8 +150904,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -151062,8 +151062,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺66,31",
-                "motorin": "₺68,93",
+                "benzin": "₺65,62",
+                "motorin": "₺69,20",
                 "lpg": "-"
             },
             {
@@ -152156,7 +152156,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -152190,8 +152190,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -152302,7 +152302,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -152366,8 +152366,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -152478,7 +152478,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -152542,8 +152542,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -152660,7 +152660,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -152718,8 +152718,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -152836,7 +152836,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -152894,8 +152894,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -153012,7 +153012,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -153070,8 +153070,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -153182,7 +153182,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -153240,8 +153240,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -153352,7 +153352,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -153410,8 +153410,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -153522,7 +153522,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -153580,8 +153580,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -153692,7 +153692,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -153750,8 +153750,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -153862,7 +153862,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -153920,8 +153920,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -154033,7 +154033,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -154091,8 +154091,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -154203,7 +154203,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "₺32,87"
+                "lpg": "-"
             },
             {
                 "marka": "Sunpet",
@@ -154261,8 +154261,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,41",
-                "motorin": "₺67,99",
+                "benzin": "₺64,72",
+                "motorin": "₺68,26",
                 "lpg": "-"
             },
             {
@@ -154433,8 +154433,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,00",
-                "motorin": "₺67,38",
+                "benzin": "₺64,31",
+                "motorin": "₺67,65",
                 "lpg": "-"
             },
             {
@@ -154585,8 +154585,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,00",
-                "motorin": "₺67,38",
+                "benzin": "₺64,31",
+                "motorin": "₺67,65",
                 "lpg": "-"
             },
             {
@@ -154761,8 +154761,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,00",
-                "motorin": "₺67,38",
+                "benzin": "₺64,31",
+                "motorin": "₺67,65",
                 "lpg": "-"
             },
             {
@@ -154937,8 +154937,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,00",
-                "motorin": "₺67,38",
+                "benzin": "₺64,31",
+                "motorin": "₺67,65",
                 "lpg": "-"
             },
             {
@@ -155083,8 +155083,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,00",
-                "motorin": "₺67,38",
+                "benzin": "₺64,31",
+                "motorin": "₺67,65",
                 "lpg": "-"
             },
             {
@@ -155217,8 +155217,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,00",
-                "motorin": "₺67,38",
+                "benzin": "₺64,31",
+                "motorin": "₺67,65",
                 "lpg": "-"
             },
             {
@@ -155393,8 +155393,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,00",
-                "motorin": "₺67,38",
+                "benzin": "₺64,31",
+                "motorin": "₺67,65",
                 "lpg": "-"
             },
             {
@@ -155569,8 +155569,8 @@
             },
             {
                 "marka": "7Kıta",
-                "benzin": "₺65,00",
-                "motorin": "₺67,38",
+                "benzin": "₺64,31",
+                "motorin": "₺67,65",
                 "lpg": "-"
             },
             {
