@@ -44689,6 +44689,12 @@
                 "lpg": "-"
             },
             {
+                "marka": "Shell",
+                "benzin": "₺73,13",
+                "motorin": "₺81,56",
+                "lpg": "₺35,32"
+            },
+            {
                 "marka": "Aytemiz",
                 "benzin": "₺64,75",
                 "motorin": "₺67,13",
@@ -85712,7 +85718,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺34,63"
             },
             {
                 "marka": "Sunpet",
@@ -85852,7 +85858,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺34,63"
             },
             {
                 "marka": "Sunpet",
@@ -86016,7 +86022,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺34,63"
             },
             {
                 "marka": "Sunpet",
@@ -86180,7 +86186,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺34,63"
             },
             {
                 "marka": "Sunpet",
@@ -86344,7 +86350,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺34,63"
             },
             {
                 "marka": "Sunpet",
@@ -86508,7 +86514,7 @@
                 "marka": "İpragaz",
                 "benzin": "-",
                 "motorin": "-",
-                "lpg": "-"
+                "lpg": "₺34,63"
             },
             {
                 "marka": "Sunpet",
@@ -86767,6 +86773,12 @@
                 "benzin": "₺73,29",
                 "motorin": "₺81,73",
                 "lpg": "-"
+            },
+            {
+                "marka": "Shell",
+                "benzin": "₺73,27",
+                "motorin": "₺81,64",
+                "lpg": "₺35,52"
             },
             {
                 "marka": "M Oil",
@@ -101670,8 +101682,8 @@
             },
             {
                 "marka": "Termo",
-                "benzin": "₺73,55",
-                "motorin": "₺82,00",
+                "benzin": "₺42,01",
+                "motorin": "₺42,42",
                 "lpg": "₺35,86"
             },
             {
