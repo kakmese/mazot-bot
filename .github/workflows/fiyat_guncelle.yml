@@ -9,23 +9,29 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: fiyat-guncelle
+  cancel-in-progress: false
+
 jobs:
   update-prices:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     steps:
       - name: Depoyu Çek (Checkout)
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Python Kurulumu
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       - name: Kütüphaneleri Yükle
-        run: |
-          pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4
 
+      # Bot, veri boş ya da şüpheli ise veriler.json'a dokunmaz ve hata koduyla
+      # çıkar; bu adım kırmızı olur ve GitHub e-posta gönderir.
       - name: Robotu Çalıştır (Fiyatları Çek)
         run: python fiyat_botu.py
 
@@ -33,5 +39,10 @@ jobs:
         run: |
           git config --global user.name 'MazotBot'
           git config --global user.email 'bot@mazotapp.com'
-          git add veriler.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Güncel fiyatlar: $(date +'%Y-%m-%d')" && git push)
+          git add veriler.json durum.json
+          if git diff --staged --quiet; then
+            echo "Fiyatlarda değişiklik yok."
+          else
+            git commit -m "Güncel fiyatlar: $(date +'%Y-%m-%d')"
+            git push
+          fi

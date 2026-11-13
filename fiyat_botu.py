@@ -1,10 +1,42 @@
+# -*- coding: utf-8 -*-
+"""OtoYakıt fiyat botu.
+
+doviz.com'daki ilçe bazlı akaryakıt fiyat tablolarını okur ve uygulamanın
+indirdiği `veriler.json` dosyasını üretir.
+
+Güvenlik kuralları (12 Eylül 2026'daki boş veri olayından sonra eklendi):
+  * Tablo, CSS sınıfına göre değil sütun başlıklarına göre bulunur; site
+    tasarımı değişse de başlıklar aynı kaldıkça çalışır.
+  * Sonuç boş ya da şüpheli derecede küçükse `veriler.json`'a DOKUNULMAZ ve
+    bot hata koduyla çıkar (GitHub Actions kırmızı olur, e-posta gelir).
+  * Tek tek başarısız olan ilçelerde eski veri korunur.
+
+Kullanım:
+    python fiyat_botu.py                 # tüm Türkiye, veriler.json'ı günceller
+    python fiyat_botu.py antalya bolu    # deneme: yalnızca bu iller,
+                                         # veriler.test.json'a yazar
+"""
+import json
+import os
+import re
+import sys
+import time
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
+
 import requests
 from bs4 import BeautifulSoup
-import json
-import time
 
-# --- TAM TÜRKİYE LİSTESİ (ALL STAR) ---
-# Adana dahil tüm illerin tüm ilçeleri eklendi.
+# Windows konsolunda ₺ ve emoji yazdırırken çökmesin
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
+
+# --- YEDEK İLÇE LİSTESİ ---
+# İlçeler normalde her ilin sayfasındaki bağlantılardan otomatik keşfedilir.
+# Keşif başarısız olursa bu liste kullanılır.
 hedefler = {
     'adana': ['seyhan', 'yuregir', 'cukurova', 'saricam', 'ceyhan', 'kozan', 'imamoglu', 'karatas', 'karaisali', 'pozanti', 'yumurtalik', 'tufanbeyli', 'feke', 'aladag', 'saimbeyli'],
     'adiyaman': ['merkez', 'kahta', 'besni', 'golbasi', 'gerger', 'sincik', 'celikhan', 'tut', 'samsat'],
@@ -90,72 +122,291 @@ hedefler = {
     'zonguldak': ['eregli', 'merkez', 'caycuma', 'devrek', 'kozlu', 'kilimli', 'gokcebey', 'alapli']
 }
 
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+BASE_URL = 'https://www.doviz.com/akaryakit-fiyatlari'
+CIKTI_DOSYASI = 'veriler.json'
+DURUM_DOSYASI = 'durum.json'
+
+BEKLEME_SN = 0.3          # her istekten sonra bekleme (siteyi yormamak için)
+ES_ZAMANLI_ISTEK = 4      # aynı anda en fazla bu kadar sayfa indirilir
+ESKI_FIYAT_GUN = 45       # tarihi bundan eski olan fiyat satırları atılır
+AYKIRI_ORAN = 0.15        # Türkiye medyanından ±%15'ten fazla sapan fiyat silinir
+DENEME_SAYISI = 3         # bir sayfa için en fazla deneme
+ZAMAN_ASIMI_SN = 15
+
+# Boş veri koruması eşikleri
+MIN_KAYIT = 5000          # toplam fiyat satırı bundan azsa yazma
+MIN_DOLU_IL = 60          # en az bu kadar ilde veri olmalı
+MIN_ESKIYE_ORAN = 0.6     # eski dosyadaki kayıt sayısının en az %60'ı
+
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                  '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept-Language': 'tr-TR,tr;q=0.9',
 }
 
-def verileri_topla():
-    tum_veriler = {} 
-    
-    toplam_il = len(hedefler)
-    toplam_ilce = sum(len(v) for v in hedefler.values())
-    sayac = 0
+oturum = requests.Session()
+oturum.headers.update(HEADERS)
 
-    print(f"🚀 DEV OPERASYON BAŞLIYOR: {toplam_il} İl ve {toplam_ilce} İlçe taranacak!")
-    print("⚠️  Bu işlem yaklaşık 20-30 dakika sürebilir. Arkanıza yaslanın.\n")
 
-    for il, ilceler in hedefler.items():
-        tum_veriler[il] = {} 
-        print(f"🏙️  {il.upper()} taranıyor... ({len(ilceler)} ilçe)")
-        
-        for ilce in ilceler:
-            sayac += 1
-            url = f"https://www.doviz.com/akaryakit-fiyatlari/{il}/{ilce}"
-            
-            # Sunucuyu yormamak için kısa bekleme
-            time.sleep(0.3)
+def sayfa_getir(url):
+    """Sayfayı indirir; geçici hatalarda birkaç kez yeniden dener.
+    Başarısızsa None döner."""
+    for deneme in range(1, DENEME_SAYISI + 1):
+        try:
+            yanit = oturum.get(url, timeout=ZAMAN_ASIMI_SN)
+            if yanit.status_code == 404:
+                return None
+            yanit.raise_for_status()
+            return yanit.content
+        except requests.RequestException as e:
+            if deneme == DENEME_SAYISI:
+                print(f"   ⚠️ İndirilemedi ({url}): {e}")
+                return None
+            time.sleep(1.5 * deneme)
+    return None
 
-            try:
-                response = requests.get(url, headers=headers, timeout=10)
-                soup = BeautifulSoup(response.content, 'html.parser')
-                
-                tablo_kapsayici = soup.find('div', class_='value-table')
-                
-                if tablo_kapsayici:
-                    tablo = tablo_kapsayici.find('table')
-                    
-                    if tablo:
-                        ilce_fiyatlari = []
-                        satirlar = tablo.find_all('tr')
-                        
-                        for satir in satirlar[1:]: 
-                            hucreler = satir.find_all('td')
-                            if len(hucreler) >= 4:
-                                veri = {
-                                    "marka": hucreler[0].get_text(strip=True),
-                                    "benzin": hucreler[1].get_text(strip=True),
-                                    "motorin": hucreler[2].get_text(strip=True),
-                                    "lpg": hucreler[3].get_text(strip=True)
-                                }
-                                ilce_fiyatlari.append(veri)
-                        
-                        tum_veriler[il][ilce] = ilce_fiyatlari
-                    else:
-                        tum_veriler[il][ilce] = []
-                else:
-                    tum_veriler[il][ilce] = []
 
-                # İlerleme çubuğu gibi her 10 ilçede bir bilgi ver
-                if sayac % 10 == 0:
-                    print(f"   ⏳ Toplam {sayac}/{toplam_ilce} ilçe tamamlandı...")
+def fiyat_tablosunu_ayristir(html):
+    """Sayfadaki fiyat tablosunu bulur ve satırları döndürür.
 
-            except Exception as e:
-                print(f"   ⚠️ Hata ({il}-{ilce}): {e}")
-            
-    # Veriyi kaydet
-    print("\n💾 Tüm veriler 'veriler.json' dosyasına kaydediliyor...")
-    with open('veriler.json', 'w', encoding='utf-8') as f:
-        json.dump(tum_veriler, f, ensure_ascii=False, indent=4)
-    print("🎉 OPERASYON BAŞARIYLA TAMAMLANDI!")
+    Tabloyu sütun başlıklarından tanır (Benzin + Motorin içeren tablo).
+    Tablo yoksa None, tablo var ama satır yoksa [] döner."""
+    soup = BeautifulSoup(html, 'html.parser')
+    for tablo in soup.find_all('table'):
+        satirlar = tablo.find_all('tr')
+        if not satirlar:
+            continue
+        basliklar = [h.get_text(strip=True).lower()
+                     for h in satirlar[0].find_all(['th', 'td'])]
+        if 'benzin' not in basliklar or 'motorin' not in basliklar:
+            continue
 
-verileri_topla()
+        i_benzin = basliklar.index('benzin')
+        i_motorin = basliklar.index('motorin')
+        i_lpg = basliklar.index('lpg') if 'lpg' in basliklar else None
+        i_tarih = basliklar.index('tarih') if 'tarih' in basliklar else None
+
+        sonuc = []
+        for satir in satirlar[1:]:
+            h = satir.find_all('td')
+            if len(h) <= max(i_benzin, i_motorin):
+                continue
+            marka = h[0].get_text(strip=True)
+            if not marka:
+                continue
+            kayit = {
+                'marka': marka,
+                'benzin': h[i_benzin].get_text(strip=True),
+                'motorin': h[i_motorin].get_text(strip=True),
+                'lpg': h[i_lpg].get_text(strip=True) if i_lpg is not None and len(h) > i_lpg else '-',
+            }
+            if i_tarih is not None and len(h) > i_tarih:
+                tarih = h[i_tarih].get_text(strip=True)
+                if tarih:
+                    kayit['tarih'] = tarih
+            sonuc.append(kayit)
+        return sonuc
+    return None
+
+
+def ilceleri_kesfet(html, il):
+    """İl sayfasındaki bağlantılardan o ilin ilçe adreslerini çıkarır."""
+    soup = BeautifulSoup(html, 'html.parser')
+    desen = re.compile(r'/akaryakit-fiyatlari/' + re.escape(il) + r'/([a-z0-9-]+)/?$')
+    bulunan = []
+    for a in soup.find_all('a', href=True):
+        m = desen.search(a['href'])
+        if m and m.group(1) not in bulunan:
+            bulunan.append(m.group(1))
+    return bulunan
+
+
+def bayat_mi(tarih_str, bugun):
+    """Satırın tarihi ESKI_FIYAT_GUN günden eskiyse True. Tarih yoksa ya da
+    okunamıyorsa satır korunur."""
+    if not tarih_str:
+        return False
+    try:
+        tarih = datetime.strptime(tarih_str, '%d.%m.%Y').date()
+    except ValueError:
+        return False
+    return (bugun - tarih).days > ESKI_FIYAT_GUN
+
+
+def fiyat_sayi(metin):
+    """'₺73,40' → 73.4 ; boş ya da '-' ise None."""
+    if not metin or metin.strip() in ('-', ''):
+        return None
+    try:
+        return float(metin.replace('₺', '').replace('.', '').replace(',', '.').strip())
+    except ValueError:
+        return None
+
+
+def aykiri_fiyatlari_temizle(veri):
+    """Türkiye medyanından AYKIRI_ORAN'dan fazla sapan fiyatları '-' yapar.
+
+    Kaynakta zaman zaman bariz hatalı satırlar oluyor (ör. herkes 72 ₺ iken
+    42 ₺ benzin). Bunlar uygulamada "en ucuz" diye öne çıkmasın diye silinir.
+    Üç yakıtı da boş kalan satır tamamen atılır. Temizlenen fiyat sayısını döner."""
+    temizlenen = 0
+    for yakit in ('benzin', 'motorin', 'lpg'):
+        degerler = sorted(
+            x for ilceler in veri.values() for liste in ilceler.values()
+            for s in liste for x in [fiyat_sayi(s.get(yakit))] if x is not None)
+        if len(degerler) < 100:
+            continue  # sağlıklı medyan için yeterli veri yok
+        medyan = degerler[len(degerler) // 2]
+        alt, ust = medyan * (1 - AYKIRI_ORAN), medyan * (1 + AYKIRI_ORAN)
+        for ilceler in veri.values():
+            for liste in ilceler.values():
+                for s in liste:
+                    x = fiyat_sayi(s.get(yakit))
+                    if x is not None and not (alt <= x <= ust):
+                        s[yakit] = '-'
+                        temizlenen += 1
+    for ilceler in veri.values():
+        for ilce, liste in ilceler.items():
+            ilceler[ilce] = [s for s in liste
+                             if any(fiyat_sayi(s.get(y)) is not None
+                                    for y in ('benzin', 'motorin', 'lpg'))]
+    return temizlenen
+
+
+def eski_veriyi_oku():
+    try:
+        with open(CIKTI_DOSYASI, encoding='utf-8') as f:
+            veri = json.load(f)
+        return veri.get('sehirler', veri) if isinstance(veri, dict) else {}
+    except Exception:
+        return {}
+
+
+def kayit_say(veri):
+    return sum(len(liste) for ilceler in veri.values() if isinstance(ilceler, dict)
+               for liste in ilceler.values() if isinstance(liste, list))
+
+
+def verileri_topla(secili_iller=None):
+    deneme_modu = bool(secili_iller)
+    iller = secili_iller or list(hedefler.keys())
+    eski = eski_veriyi_oku()
+
+    tum_veriler = {}
+    indirilemeyen = []     # ağ hatası: eski veri korundu
+    tablosuz = []          # sayfa geldi ama fiyat tablosu yok
+    tarih_sayaci = Counter()
+    atilan_bayat = 0       # tarihi çok eski olduğu için atılan satır sayısı
+    bugun = datetime.now(timezone.utc).date()
+
+    print(f"🚀 {len(iller)} il taranacak.\n")
+
+    for il in iller:
+        tum_veriler[il] = {}
+
+        # 1) İlçe listesini il sayfasından keşfet; olmazsa yedek listeyi kullan
+        ilceler = []
+        il_html = sayfa_getir(f"{BASE_URL}/{il}")
+        time.sleep(BEKLEME_SN)
+        if il_html:
+            ilceler = ilceleri_kesfet(il_html, il)
+        if not ilceler:
+            ilceler = list(dict.fromkeys(hedefler.get(il, [])))
+            print(f"   ℹ️ {il}: ilçeler keşfedilemedi, yedek liste kullanılıyor")
+
+        print(f"🏙️  {il.upper()} taranıyor... ({len(ilceler)} ilçe)", flush=True)
+
+        # 2) Her ilçenin fiyat tablosunu oku (birkaç sayfa aynı anda)
+        def ilce_indir(ilce, il=il):
+            html = sayfa_getir(f"{BASE_URL}/{il}/{ilce}")
+            time.sleep(BEKLEME_SN)
+            return html
+
+        with ThreadPoolExecutor(max_workers=ES_ZAMANLI_ISTEK) as havuz:
+            sayfalar = list(havuz.map(ilce_indir, ilceler))
+
+        for ilce, html in zip(ilceler, sayfalar):
+            if html is None:
+                # Ağ hatası: varsa dünkü veriyi koru
+                tum_veriler[il][ilce] = eski.get(il, {}).get(ilce, [])
+                indirilemeyen.append(f"{il}/{ilce}")
+                continue
+
+            satirlar = fiyat_tablosunu_ayristir(html)
+            if satirlar is None:
+                tablosuz.append(f"{il}/{ilce}")
+                satirlar = []
+
+            # Aylardır güncellenmemiş fiyatları at: bunlar bugünkü fiyatlardan
+            # çok düşük kaldığı için uygulamada yanlışlıkla "en ucuz" görünüyor.
+            taze = [s for s in satirlar if not bayat_mi(s.get('tarih'), bugun)]
+            atilan_bayat += len(satirlar) - len(taze)
+            satirlar = taze
+            tum_veriler[il][ilce] = satirlar
+            for s in satirlar:
+                if s.get('tarih'):
+                    tarih_sayaci[s['tarih']] += 1
+
+    temizlenen_aykiri = aykiri_fiyatlari_temizle(tum_veriler)
+
+    # --- ÖZET ---
+    toplam_kayit = kayit_say(tum_veriler)
+    toplam_ilce = sum(len(v) for v in tum_veriler.values())
+    dolu_il = sum(1 for v in tum_veriler.values() if any(v.values()))
+    bos_ilce = [f"{il}/{ilce}" for il, v in tum_veriler.items()
+                for ilce, liste in v.items() if not liste]
+    eski_kayit = kayit_say(eski)
+
+    print(f"\n📊 {len(tum_veriler)} il, {toplam_ilce} ilçe, {toplam_kayit} fiyat satırı")
+    print(f"   veri olan il: {dolu_il} | boş ilçe: {len(bos_ilce)} | "
+          f"indirilemeyen: {len(indirilemeyen)} | tablosuz: {len(tablosuz)} | "
+          f"atılan eski fiyat: {atilan_bayat} | silinen aykırı fiyat: {temizlenen_aykiri}")
+    if bos_ilce[:15]:
+        print(f"   boş ilçe örnekleri: {', '.join(bos_ilce[:15])}")
+
+    if deneme_modu:
+        hedef = 'veriler.test.json'
+        with open(hedef, 'w', encoding='utf-8') as f:
+            json.dump(tum_veriler, f, ensure_ascii=False, indent=1)
+        print(f"\n🧪 Deneme modu: sonuç '{hedef}' dosyasına yazıldı, {CIKTI_DOSYASI} değişmedi.")
+        return 0
+
+    # --- BOŞ VERİ KORUMASI ---
+    sorunlar = []
+    if toplam_kayit < MIN_KAYIT:
+        sorunlar.append(f"toplam satır {toplam_kayit} < {MIN_KAYIT}")
+    if dolu_il < MIN_DOLU_IL:
+        sorunlar.append(f"veri olan il {dolu_il} < {MIN_DOLU_IL}")
+    if eski_kayit and toplam_kayit < eski_kayit * MIN_ESKIYE_ORAN:
+        sorunlar.append(f"satır sayısı önceki veriye göre çok düştü ({eski_kayit} → {toplam_kayit})")
+
+    if sorunlar:
+        print("\n❌ VERİ GÜVENİLİR DEĞİL — veriler.json DEĞİŞTİRİLMEDİ.")
+        for s in sorunlar:
+            print(f"   • {s}")
+        print("   Büyük ihtimalle kaynak sitenin sayfa yapısı değişti ya da erişim engellendi.")
+        return 1
+
+    with open(CIKTI_DOSYASI, 'w', encoding='utf-8') as f:
+        json.dump(tum_veriler, f, ensure_ascii=False, indent=1)
+
+    durum = {
+        'guncelleme': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'veri_tarihi': tarih_sayaci.most_common(1)[0][0] if tarih_sayaci else None,
+        'il': len(tum_veriler),
+        'ilce': toplam_ilce,
+        'kayit': toplam_kayit,
+        'bos_ilce': len(bos_ilce),
+        'indirilemeyen': len(indirilemeyen),
+        'atilan_eski_fiyat': atilan_bayat,
+        'silinen_aykiri_fiyat': temizlenen_aykiri,
+    }
+    with open(DURUM_DOSYASI, 'w', encoding='utf-8') as f:
+        json.dump(durum, f, ensure_ascii=False, indent=1)
+
+    print(f"\n💾 '{CIKTI_DOSYASI}' ve '{DURUM_DOSYASI}' güncellendi.")
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(verileri_topla(sys.argv[1:]))
