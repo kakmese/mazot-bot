@@ -39,7 +39,7 @@ jobs:
         run: |
           git config --global user.name 'MazotBot'
           git config --global user.email 'bot@mazotapp.com'
-          git add veriler.json durum.json
+          git add veriler.json durum.json gecmis.json
           if git diff --staged --quiet; then
             echo "Fiyatlarda değişiklik yok."
           else

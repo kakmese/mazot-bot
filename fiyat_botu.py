@@ -23,7 +23,7 @@ import sys
 import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 from bs4 import BeautifulSoup
@@ -125,6 +125,8 @@ hedefler = {
 BASE_URL = 'https://www.doviz.com/akaryakit-fiyatlari'
 CIKTI_DOSYASI = 'veriler.json'
 DURUM_DOSYASI = 'durum.json'
+GECMIS_DOSYASI = 'gecmis.json'
+GECMIS_GUN = 30           # gecmis.json'da tutulan gün sayısı
 
 BEKLEME_SN = 0.3          # her istekten sonra bekleme (siteyi yormamak için)
 ES_ZAMANLI_ISTEK = 4      # aynı anda en fazla bu kadar sayfa indirilir
@@ -273,6 +275,98 @@ def aykiri_fiyatlari_temizle(veri):
     return temizlenen
 
 
+def tr_sayi(metin):
+    """Türkçe biçimli sayıyı çözer: '$1.960,61' → 1960.61 ; '%-0,02' → -0.02."""
+    if not metin:
+        return None
+    temiz = re.sub(r'[^0-9,.\-]', '', metin).replace('.', '').replace(',', '.')
+    try:
+        return float(temiz)
+    except ValueError:
+        return None
+
+
+def piyasa_ayristir(html):
+    """Sayfanın üst şeridindeki dolar, euro ve Brent değerlerini okur.
+
+    Dönen biçim: {'dolar': {'deger': 50.37, 'degisim': 0.22}, 'euro': ..., 'brent': ...}
+    `degisim` günlük yüzde değişimdir. Hiçbiri bulunamazsa None döner."""
+    soup = BeautifulSoup(html, 'html.parser')
+    anahtarlar = {'USD': 'dolar', 'EUR': 'euro', 'BRENT': 'brent'}
+    sonuc = {}
+    for site_adi, ad in anahtarlar.items():
+        deger = soup.find(attrs={'data-socket-key': site_adi, 'data-socket-attr': 's'})
+        degisim = soup.find(attrs={'data-socket-key': site_adi, 'data-socket-attr': 'c'})
+        d = tr_sayi(deger.get_text(strip=True)) if deger else None
+        if d is None:
+            continue
+        sonuc[ad] = {
+            'deger': round(d, 4),
+            'degisim': tr_sayi(degisim.get_text(strip=True)) if degisim else None,
+        }
+    return sonuc or None
+
+
+def medyan(sayilar):
+    s = sorted(sayilar)
+    return round(s[len(s) // 2], 2) if s else None
+
+
+def gecmisi_guncelle(veri, gun):
+    """gecmis.json'a bugünün il bazlı medyan fiyatlarını ekler (son GECMIS_GUN gün).
+
+    Uygulamadaki "son 7 gün" grafiği ve günlük değişim yüzdeleri bu dosyadan
+    hesaplanır. Aynı gün ikinci kez çalışırsa o günün kaydı yenilenir."""
+    yakitlar = ('benzin', 'motorin', 'lpg')
+    try:
+        with open(GECMIS_DOSYASI, encoding='utf-8') as f:
+            gecmis = json.load(f)
+    except Exception:
+        gecmis = {}
+    gunler = list(gecmis.get('gunler', []))
+    turkiye = {y: list(gecmis.get('turkiye', {}).get(y, [])) for y in yakitlar}
+    iller = {il: {y: list(d.get(y, [])) for y in yakitlar}
+             for il, d in gecmis.get('iller', {}).items()}
+
+    if gunler and gunler[-1] == gun:
+        konum = len(gunler) - 1          # bugünün kaydını yenile
+    else:
+        gunler.append(gun)
+        konum = len(gunler) - 1
+
+    def yerlestir(seri, deger):
+        while len(seri) < konum:          # eksik günleri boşlukla doldur
+            seri.append(None)
+        if len(seri) == konum:
+            seri.append(deger)
+        else:
+            seri[konum] = deger
+        del seri[konum + 1:]
+
+    for y in yakitlar:
+        tum = [x for ilceler in veri.values() for l in ilceler.values()
+               for s in l for x in [fiyat_sayi(s.get(y))] if x is not None]
+        yerlestir(turkiye[y], medyan(tum))
+    for il in set(list(veri.keys()) + list(iller.keys())):
+        iller.setdefault(il, {y: [] for y in yakitlar})
+        for y in yakitlar:
+            degerler = [x for l in veri.get(il, {}).values()
+                        for s in l for x in [fiyat_sayi(s.get(y))] if x is not None]
+            yerlestir(iller[il][y], medyan(degerler))
+
+    # Yalnızca son GECMIS_GUN günü tut
+    fazla = len(gunler) - GECMIS_GUN
+    if fazla > 0:
+        gunler = gunler[fazla:]
+        turkiye = {y: s[fazla:] for y, s in turkiye.items()}
+        iller = {il: {y: s[fazla:] for y, s in d.items()} for il, d in iller.items()}
+
+    with open(GECMIS_DOSYASI, 'w', encoding='utf-8') as f:
+        json.dump({'gunler': gunler, 'turkiye': turkiye, 'iller': iller},
+                  f, ensure_ascii=False, separators=(',', ':'))
+    return len(gunler)
+
+
 def eski_veriyi_oku():
     try:
         with open(CIKTI_DOSYASI, encoding='utf-8') as f:
@@ -297,7 +391,9 @@ def verileri_topla(secili_iller=None):
     tablosuz = []          # sayfa geldi ama fiyat tablosu yok
     tarih_sayaci = Counter()
     atilan_bayat = 0       # tarihi çok eski olduğu için atılan satır sayısı
-    bugun = datetime.now(timezone.utc).date()
+    piyasa = None          # dolar / euro / Brent (ilk açılan sayfadan okunur)
+    simdi_tr = datetime.now(timezone.utc) + timedelta(hours=3)   # Türkiye saati
+    bugun = simdi_tr.date()
 
     print(f"🚀 {len(iller)} il taranacak.\n")
 
@@ -310,6 +406,8 @@ def verileri_topla(secili_iller=None):
         time.sleep(BEKLEME_SN)
         if il_html:
             ilceler = ilceleri_kesfet(il_html, il)
+            if piyasa is None:
+                piyasa = piyasa_ayristir(il_html)
         if not ilceler:
             ilceler = list(dict.fromkeys(hedefler.get(il, [])))
             print(f"   ℹ️ {il}: ilçeler keşfedilemedi, yedek liste kullanılıyor")
@@ -400,11 +498,15 @@ def verileri_topla(secili_iller=None):
         'indirilemeyen': len(indirilemeyen),
         'atilan_eski_fiyat': atilan_bayat,
         'silinen_aykiri_fiyat': temizlenen_aykiri,
+        'piyasa': piyasa,
     }
     with open(DURUM_DOSYASI, 'w', encoding='utf-8') as f:
         json.dump(durum, f, ensure_ascii=False, indent=1)
 
-    print(f"\n💾 '{CIKTI_DOSYASI}' ve '{DURUM_DOSYASI}' güncellendi.")
+    gun_sayisi = gecmisi_guncelle(tum_veriler, bugun.isoformat())
+
+    print(f"\n💾 '{CIKTI_DOSYASI}', '{DURUM_DOSYASI}' ve '{GECMIS_DOSYASI}' güncellendi "
+          f"(geçmiş: {gun_sayisi} gün, piyasa: {'var' if piyasa else 'YOK'}).")
     return 0
 
 
