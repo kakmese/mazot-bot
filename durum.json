@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-11-13T13:16:35Z",
+ "guncelleme": "2026-11-13T13:34:14Z",
  "veri_tarihi": "13.11.2026",
  "il": 82,
  "ilce": 973,
@@ -7,5 +7,19 @@
  "bos_ilce": 0,
  "indirilemeyen": 0,
  "atilan_eski_fiyat": 131,
- "silinen_aykiri_fiyat": 865
+ "silinen_aykiri_fiyat": 865,
+ "piyasa": {
+  "dolar": {
+   "deger": 50.3675,
+   "degisim": 0.22
+  },
+  "euro": {
+   "deger": 55.7275,
+   "degisim": 0.06
+  },
+  "brent": {
+   "deger": 96.19,
+   "degisim": 0.39
+  }
+ }
 }
