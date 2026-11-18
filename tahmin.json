@@ -1,0 +1,37 @@
+{
+ "guncelleme": "2026-11-18T17:49:28Z",
+ "yontem": "Ürün maliyeti (ABD dizel/benzin vadelisi × dolar kuru) son pompa değişikliğine göre",
+ "kaynak": {
+  "piyasa": "Yahoo Finance",
+  "pompa": "opet-istanbul",
+  "haber": "Google Haberler"
+ },
+ "motorin": {
+  "yon": "indirim",
+  "tutar": 1.0,
+  "guven": "yuksek",
+  "dayanak": "hesap+haber",
+  "hesap_fark": -1.1,
+  "son_degisim": "2026-11-17",
+  "son_degisim_fark": 0.1,
+  "haber": {
+   "yon": "indirim",
+   "adet": 5,
+   "tutar": null
+  }
+ },
+ "benzin": {
+  "yon": "yatay",
+  "tutar": null,
+  "guven": null,
+  "dayanak": "hesap",
+  "hesap_fark": -0.43,
+  "son_degisim": "2026-11-17",
+  "son_degisim_fark": 0.08,
+  "haber": {
+   "yon": "indirim",
+   "adet": 2,
+   "tutar": null
+  }
+ }
+}
