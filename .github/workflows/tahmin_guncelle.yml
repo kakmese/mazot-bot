@@ -1,0 +1,51 @@
+name: Zam / İndirim Tahmini
+
+on:
+  schedule:
+    # Üç saatte bir (piyasa gün içinde değişir; haberler de gün boyu gelir)
+    - cron: '20 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Fiyat botuyla aynı grup: ikisi aynı anda depoya yazmaya çalışmasın
+concurrency:
+  group: fiyat-guncelle
+  cancel-in-progress: false
+
+jobs:
+  tahmin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Depoyu Çek
+        uses: actions/checkout@v4
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Kütüphaneleri Yükle
+        run: pip install requests
+
+      # Piyasa verisi alınamazsa betik tahmin.json'a dokunmaz. Her 3 saatte bir
+      # hata e-postası gelmesin diye bu adım uyarı verip devam eder; uygulama
+      # 2 günden eski tahmini zaten göstermez.
+      - name: Tahmini Hesapla
+        run: python tahmin.py || echo "::warning::Tahmin hesaplanamadı, eski tahmin.json korunuyor."
+
+      - name: Değişiklikleri Kaydet ve Gönder
+        run: |
+          git config --global user.name 'MazotBot'
+          git config --global user.email 'bot@mazotapp.com'
+          git add tahmin.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "Tahminde değişiklik yok."
+          else
+            git commit -m "Tahmin: $(date -u +'%Y-%m-%d %H:%M')"
+            git pull --rebase --autostash
+            git push
+          fi
