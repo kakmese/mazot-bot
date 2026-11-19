@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-11-19T00:30:37Z",
+ "guncelleme": "2026-11-19T11:52:32Z",
  "yontem": "Ürün maliyeti (ABD dizel/benzin vadelisi × dolar kuru) son pompa değişikliğine göre",
  "kaynak": {
   "piyasa": "Yahoo Finance",
@@ -8,26 +8,30 @@
  },
  "motorin": {
   "yon": "indirim",
-  "tutar": 1.0,
+  "tutar": 5.2,
   "guven": "yuksek",
   "dayanak": "hesap+haber",
-  "hesap_fark": -1.12,
+  "hesap_fark": -2.09,
   "son_degisim": "2026-11-17",
   "son_degisim_fark": 0.1,
   "haber": {
    "yon": "indirim",
-   "adet": 4,
-   "tutar": null
+   "adet": 7,
+   "tutar": 5.2
   }
  },
  "benzin": {
-  "yon": "yatay",
-  "tutar": null,
-  "guven": null,
-  "dayanak": "hesap",
-  "hesap_fark": -0.42,
+  "yon": "indirim",
+  "tutar": 0.75,
+  "guven": "yuksek",
+  "dayanak": "hesap+haber",
+  "hesap_fark": -0.75,
   "son_degisim": "2026-11-17",
   "son_degisim_fark": 0.08,
-  "haber": null
+  "haber": {
+   "yon": "indirim",
+   "adet": 3,
+   "tutar": null
+  }
  }
 }
