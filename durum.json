@@ -1,25 +1,25 @@
 {
- "guncelleme": "2026-11-25T04:45:24Z",
- "veri_tarihi": "25.11.2026",
+ "guncelleme": "2026-11-26T03:55:05Z",
+ "veri_tarihi": "26.11.2026",
  "il": 82,
  "ilce": 973,
- "kayit": 26336,
+ "kayit": 26338,
  "bos_ilce": 0,
  "indirilemeyen": 0,
  "atilan_eski_fiyat": 131,
- "silinen_aykiri_fiyat": 873,
+ "silinen_aykiri_fiyat": 889,
  "piyasa": {
   "dolar": {
    "deger": 50.6761,
-   "degisim": 0.1
+   "degisim": 0.0
   },
   "euro": {
-   "deger": 55.4672,
-   "degisim": -0.27
+   "deger": 55.7189,
+   "degisim": 0.17
   },
   "brent": {
-   "deger": 87.52,
-   "degisim": -1.42
+   "deger": 91.19,
+   "degisim": 0.61
   }
  }
 }
