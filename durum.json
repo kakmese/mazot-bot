@@ -1,6 +1,6 @@
 {
- "guncelleme": "2026-11-27T03:56:33Z",
- "veri_tarihi": "27.11.2026",
+ "guncelleme": "2026-11-28T03:43:28Z",
+ "veri_tarihi": "28.11.2026",
  "il": 82,
  "ilce": 973,
  "kayit": 26339,
@@ -10,16 +10,16 @@
  "silinen_aykiri_fiyat": 889,
  "piyasa": {
   "dolar": {
-   "deger": 50.7847,
-   "degisim": 0.23
+   "deger": 50.7674,
+   "degisim": 0.2
   },
   "euro": {
-   "deger": 55.8023,
-   "degisim": 0.13
+   "deger": 55.567,
+   "degisim": -0.29
   },
   "brent": {
-   "deger": 92.24,
-   "degisim": 0.62
+   "deger": 90.76,
+   "degisim": -0.99
   }
  }
 }
